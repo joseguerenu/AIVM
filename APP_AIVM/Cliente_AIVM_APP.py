@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 #from sklearn.metrics import r2_score
 
 #leemos el csv y hacemos el tratamiento de nulos 
-df = pd.read_csv('c:/Users/diazj/Documents/ProyectoML/opportunities_dataset_jf.csv') 
+df = pd.read_csv('c:/Users/diazj/Documents/ProyectoML/opportunities_dataset.csv') 
 df.Estado.fillna('Nueva construcción', inplace = True)
 df=df.fillna(0) 
 
